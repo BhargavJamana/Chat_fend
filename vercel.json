@@ -3,13 +3,7 @@
   "outputDirectory": "frontend/dist",
   "public": false,
   "env": {
-    "VITE_API_URL": {
-      "description": "Backend API URL",
-      "value": "https://chatapp-va9l.onrender.com"
-    },
-    "VITE_SOCKET_URL": {
-      "description": "Backend WebSocket URL",
-      "value": "https://chatapp-va9l.onrender.com"
-    }
+    "VITE_API_URL": "https://chatapp-va9l.onrender.com",
+    "VITE_SOCKET_URL": "https://chatapp-va9l.onrender.com"
   }
 }
