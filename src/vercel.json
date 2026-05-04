@@ -1,9 +1,8 @@
 {
   "buildCommand": "rm -rf node_modules package-lock.json && npm install && npx vite build",
-  "outputDirectory": "dist"
-}
-{
+  "outputDirectory": "dist",
   "routes": [
     { "src": "/(.*)", "dest": "/" }
   ]
 }
+
